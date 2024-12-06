@@ -27,8 +27,10 @@ The RotatE model embeds entities and relations from a knowledge graph into a com
    -NetworkX (for graph representation)
 
 2.Installation
-Install the required packages:
-pip install torch matplotlib networkx
+
+   Install the required packages:
+   
+   pip install torch matplotlib networkx
 
 
 **Code Structure:**
