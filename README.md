@@ -44,17 +44,18 @@ Accuracy vs Threshold: The accuracy is calculated for multiple thresholds to fin
 Accuracy vs Learning Rate: The accuracy is calculated for different learning rates at a fixed threshold.
 
 4. Visualization
-The results are plotted using Matplotlib:
--Accuracy vs Threshold
--Accuracy vs Learning Rate
+The results are plotted using Matplotlib: Accuracy vs Threshold
 
 
 **Usage:**
 1. Define Parameters
+
 Modify these parameters as needed in the code:
 
 learning_rates = [0.0001, 0.001, 0.01, 0.1]
+
 thresholds = [0.1, 0.2, 0.3, 0.5]
+
 embedding_dim = 100  # Set the dimension of embeddings
 
 2. Train and Evaluate
@@ -63,13 +64,17 @@ Run the train_and_evaluate function with the knowledge graph:
 train_and_evaluate(explicit_graph, learning_rates, thresholds)
 
 3. View Results
+
 -Accuracy vs Threshold: Compares accuracy for different thresholds across learning rates.
+
 -Accuracy vs Learning Rate: Compares accuracy for different learning rates at a fixed threshold.
 
 
 **Sample Plots:**
 1. Accuracy vs Threshold
+
 This plot shows how accuracy varies for different thresholds and learning rates.
+
 ![image](https://github.com/user-attachments/assets/cbe55bf8-c7f2-4539-88ba-97c7f5ad5952)
 
 
