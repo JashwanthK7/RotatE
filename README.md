@@ -19,8 +19,11 @@ The RotatE model embeds entities and relations from a knowledge graph into a com
 1. Libraries Required:
 
    -Python 3.x
+   
    -PyTorch
+   
    -Matplotlib
+
    -NetworkX (optional, for graph representation)
 
 2.Installation
