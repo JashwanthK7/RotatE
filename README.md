@@ -78,8 +78,11 @@ How to Run:
 
 
 Future Work:
+
 -Add support for custom loss functions.
+
 -Include additional evaluation metrics (e.g., precision, recall).
+
 -Optimize the training process for large-scale knowledge graphs.
 
 
