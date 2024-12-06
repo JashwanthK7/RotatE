@@ -64,10 +64,8 @@ Run the train_and_evaluate function with the knowledge graph:
 train_and_evaluate(explicit_graph, learning_rates, thresholds)
 
 3. View Results
-
--Accuracy vs Threshold: Compares accuracy for different thresholds across learning rates.
-
--Accuracy vs Learning Rate: Compares accuracy for different learning rates at a fixed threshold.
+   -Accuracy vs Threshold: Compares accuracy for different thresholds across learning rates.
+   -Accuracy vs Learning Rate: Compares accuracy for different learning rates at a fixed threshold.
 
 
 **Sample Plots:**
