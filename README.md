@@ -35,16 +35,21 @@ The RotatE model embeds entities and relations from a knowledge graph into a com
 
 **Code Structure:**
 1. Model Definition
+
    The RotatE class defines the model, including entity and relation embeddings.
 
 2. Training the Model
+   
    The train_rotate function trains the RotatE model using a given learning rate and number of epochs.
 
 3. Evaluation
-   The model is evaluated based on:
-Accuracy vs Threshold: The accuracy is calculated for multiple thresholds to find the best distance metric cutoff.
+   
+   The model is evaluated based on Accuracy vs Threshold:
+
+   The accuracy is calculated for multiple thresholds to find the best distance metric cutoff.
 
 4. Visualization
+
    The results are plotted using Matplotlib: Accuracy vs Threshold
 
 
