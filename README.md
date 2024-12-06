@@ -33,17 +33,17 @@ pip install torch matplotlib networkx
 
 **Code Structure:**
 1. Model Definition
-The RotatE class defines the model, including entity and relation embeddings.
+   The RotatE class defines the model, including entity and relation embeddings.
 
 2. Training the Model
-The train_rotate function trains the RotatE model using a given learning rate and number of epochs.
+   The train_rotate function trains the RotatE model using a given learning rate and number of epochs.
 
 3. Evaluation
-The model is evaluated based on:
+   The model is evaluated based on:
 Accuracy vs Threshold: The accuracy is calculated for multiple thresholds to find the best distance metric cutoff.
 
 4. Visualization
-The results are plotted using Matplotlib: Accuracy vs Threshold
+   The results are plotted using Matplotlib: Accuracy vs Threshold
 
 
 **Usage:**
@@ -58,12 +58,14 @@ thresholds = [0.1, 0.2, 0.3, 0.5]
 embedding_dim = 100  # Set the dimension of embeddings
 
 2. Train and Evaluate
+   
    Run the train_and_evaluate function with the knowledge graph:
+   
    train_and_evaluate(explicit_graph, learning_rates, thresholds)
 
-3. View Results
+4. View Results
+   
    -Accuracy vs Threshold: Compares accuracy for different thresholds across learning rates.
-   -Accuracy vs Learning Rate: Compares accuracy for different learning rates at a fixed threshold.
 
 
 **Sample Plots:**
