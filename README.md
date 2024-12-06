@@ -41,7 +41,6 @@ The train_rotate function trains the RotatE model using a given learning rate an
 3. Evaluation
 The model is evaluated based on:
 Accuracy vs Threshold: The accuracy is calculated for multiple thresholds to find the best distance metric cutoff.
-Accuracy vs Learning Rate: The accuracy is calculated for different learning rates at a fixed threshold.
 
 4. Visualization
 The results are plotted using Matplotlib: Accuracy vs Threshold
@@ -59,9 +58,8 @@ thresholds = [0.1, 0.2, 0.3, 0.5]
 embedding_dim = 100  # Set the dimension of embeddings
 
 2. Train and Evaluate
-Run the train_and_evaluate function with the knowledge graph:
-
-train_and_evaluate(explicit_graph, learning_rates, thresholds)
+   Run the train_and_evaluate function with the knowledge graph:
+   train_and_evaluate(explicit_graph, learning_rates, thresholds)
 
 3. View Results
    -Accuracy vs Threshold: Compares accuracy for different thresholds across learning rates.
