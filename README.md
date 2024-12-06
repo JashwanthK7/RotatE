@@ -5,6 +5,7 @@ Overview:
 
 The RotatE model embeds entities and relations from a knowledge graph into a complex vector space. Relations are modeled as rotations in the embedding space, and the distance metric determines whether a triple (h,r,t) is valid.
 
+
 This implementation:
 
 -Trains the model using different learning rates.
@@ -12,6 +13,7 @@ This implementation:
 -Evaluates the model over a range of distance thresholds.
 
 -Plots the results for both learning rates and thresholds.
+
 
 Prerequisites:
 
@@ -24,6 +26,7 @@ Prerequisites:
 2.Installation
 Install the required packages:
 pip install torch matplotlib networkx
+
 
 Code Structure:
 1. Model Definition
@@ -42,6 +45,7 @@ The results are plotted using Matplotlib:
 -Accuracy vs Threshold
 -Accuracy vs Learning Rate
 
+
 Usage:
 1. Define Parameters
 Modify these parameters as needed in the code:
@@ -59,10 +63,12 @@ train_and_evaluate(explicit_graph, learning_rates, thresholds)
 -Accuracy vs Threshold: Compares accuracy for different thresholds across learning rates.
 -Accuracy vs Learning Rate: Compares accuracy for different learning rates at a fixed threshold.
 
+
 Sample Plots:
 1. Accuracy vs Threshold
 This plot shows how accuracy varies for different thresholds and learning rates.
 ![image](https://github.com/user-attachments/assets/cbe55bf8-c7f2-4539-88ba-97c7f5ad5952)
+
 
 How to Run:
 1. Clone the repository.
@@ -70,14 +76,19 @@ How to Run:
 3. Run the Python script.
 4. View the accuracy plots for analysis.
 
+
 Future Work:
 -Add support for custom loss functions.
 -Include additional evaluation metrics (e.g., precision, recall).
 -Optimize the training process for large-scale knowledge graphs.
 
+
 Contributors:
+
 -Avantika Balaji
+
 -Jashwanth Kandula
+
 -Rakshitha Narasimhaiah
 
 Feel free to reach out or submit an issue for questions or suggestions!
