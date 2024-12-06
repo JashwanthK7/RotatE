@@ -1,12 +1,12 @@
 # RotatE
 This README file describes the implementation, training, and evaluation of the RotatE model, which is used for knowledge graph completion tasks. It includes training and evaluation using multiple thresholds and learning rates.
 
-Overview:
+**Overview:**
 
 The RotatE model embeds entities and relations from a knowledge graph into a complex vector space. Relations are modeled as rotations in the embedding space, and the distance metric determines whether a triple (h,r,t) is valid.
 
 
-This implementation:
+**This implementation:**
 
 -Trains the model using different learning rates.
 
@@ -15,7 +15,7 @@ This implementation:
 -Plots the results for both learning rates and thresholds.
 
 
-Prerequisites:
+**Prerequisites:**
 
 1. Libraries Required:
 -Python 3.x
@@ -28,7 +28,7 @@ Install the required packages:
 pip install torch matplotlib networkx
 
 
-Code Structure:
+**Code Structure:**
 1. Model Definition
 The RotatE class defines the model, including entity and relation embeddings.
 
@@ -46,7 +46,7 @@ The results are plotted using Matplotlib:
 -Accuracy vs Learning Rate
 
 
-Usage:
+**Usage:**
 1. Define Parameters
 Modify these parameters as needed in the code:
 
@@ -64,20 +64,20 @@ train_and_evaluate(explicit_graph, learning_rates, thresholds)
 -Accuracy vs Learning Rate: Compares accuracy for different learning rates at a fixed threshold.
 
 
-Sample Plots:
+**Sample Plots:**
 1. Accuracy vs Threshold
 This plot shows how accuracy varies for different thresholds and learning rates.
 ![image](https://github.com/user-attachments/assets/cbe55bf8-c7f2-4539-88ba-97c7f5ad5952)
 
 
-How to Run:
+**How to Run:**
 1. Clone the repository.
-2. Ensure the knowledge graph data is loaded into explicit_graph.
+2. Ensure the knowledge graph data is loaded.
 3. Run the Python script.
 4. View the accuracy plots for analysis.
 
 
-Future Work:
+**Future Work:**
 
 -Add support for custom loss functions.
 
@@ -86,7 +86,7 @@ Future Work:
 -Optimize the training process for large-scale knowledge graphs.
 
 
-Contributors:
+**Contributors:**
 
 -Avantika Balaji
 
