@@ -6,6 +6,7 @@ The RotatE model embeds entities and relations from a knowledge graph into a com
 
 This implementation:
 -Trains the model using different learning rates.
+
 -Evaluates the model over a range of distance thresholds.
 -Plots the results for both learning rates and thresholds.
 
