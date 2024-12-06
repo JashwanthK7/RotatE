@@ -2,15 +2,19 @@
 This README file describes the implementation, training, and evaluation of the RotatE model, which is used for knowledge graph completion tasks. It includes training and evaluation using multiple thresholds and learning rates.
 
 Overview:
+
 The RotatE model embeds entities and relations from a knowledge graph into a complex vector space. Relations are modeled as rotations in the embedding space, and the distance metric determines whether a triple (h,r,t) is valid.
 
 This implementation:
+
 -Trains the model using different learning rates.
 
 -Evaluates the model over a range of distance thresholds.
+
 -Plots the results for both learning rates and thresholds.
 
 Prerequisites:
+
 1. Libraries Required:
 -Python 3.x
 -PyTorch
