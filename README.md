@@ -51,13 +51,13 @@ Accuracy vs Threshold: The accuracy is calculated for multiple thresholds to fin
 **Usage:**
 1. Define Parameters
 
-Modify these parameters as needed in the code:
+   Modify these parameters as needed in the code:
 
-learning_rates = [0.0001, 0.001, 0.01, 0.1]
+   learning_rates = [0.0001, 0.001, 0.01, 0.1]
 
-thresholds = [0.1, 0.2, 0.3, 0.5]
+   thresholds = [0.1, 0.2, 0.3, 0.5]
 
-embedding_dim = 100  # Set the dimension of embeddings
+   embedding_dim = 100  # Set the dimension of embeddings
 
 2. Train and Evaluate
    
